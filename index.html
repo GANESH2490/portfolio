@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puthineedi Ganesh Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>Portfolio.</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="toggle-mode">
+                <i class="bx bx-moon" id="dark-mode-toggle"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <div class="content">
+            <div class="image">
+                <img src="my.jpg" alt="Puthineedi Ganesh">
+            </div>
+            <h2>Puthineedi Ganesh</h2>
+            <p>I'm a Designer</p>
+            <p>Hello, and welcome to my portfolio! I’m Puthineedi Ganesh, a passionate and dedicated designer with a flair for creating unique, visually appealing, and user-friendly web experiences. As you navigate through my website, you’ll get a closer look at my work, my design philosophy, and the projects that I’ve poured my heart into over the years.
+                
+            </p>
+            <a href="#projects" class="btn">Explore My Work</a>
+        </div>
+        
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I’m Puthineedi Ganesh, a passionate designer and developer with a love for creating meaningful and engaging digital experiences. With a background in web design, UI/UX, and front-end development, I specialize in transforming complex ideas into simple, intuitive, and aesthetically pleasing designs. My journey in design has been a fulfilling combination of creativity, technical skills, and continuous learning, and I am committed to delivering the best solutions to every project I undertake.
+
+            My Background and Journey into Design
+            My fascination with design and technology started at an early age. Growing up, I was always curious about how things work, especially when it came to visual arts and technology. What intrigued me most was the digital world—how something as simple as a webpage could be designed to create a seamless, beautiful experience for users. I began experimenting with HTML, CSS, and graphic design software to bring my ideas to life. Little did I know that what started as a hobby would eventually become my career.
+            
+            I pursued a degree in Web Design and Development, which provided me with the necessary skills to combine creativity with technology. During my studies, I was introduced to the principles of design such as typography, color theory, and layout, as well as the technical side—learning how to code and build functional websites. The more I learned, the more I fell in love with how design could shape users’ experiences.
+            
+            After graduation, I began my professional journey as a freelance designer, working with various clients across different industries. My work ranged from designing personal websites to collaborating with startups and established companies. Each project presented unique challenges, but they also provided opportunities to grow my design skills and technical knowledge.</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skill-container">
+            <div class="skill-item">
+                <i class="bx bx-code"></i> <!-- Example Icon -->
+                <span>HTML</span>
+            </div>
+            <div class="skill-item">
+                <i class="bx bx-paint"></i> <!-- Example Icon -->
+                <span>CSS</span>
+            </div>
+            <div class="skill-item">
+                <i class="bx bx-brain"></i> <!-- Example Icon -->
+                <span>JavaScript</span>
+            </div>
+            <div class="skill-item">
+                <i class="bx bx-phone"></i> <!-- Example Icon -->
+                <span>Python</span>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Basic Calculator</h3>
+            <p>A simple calculator with basic arithmetic operations.</p>
+            <a href="cal.html" class="btn">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>This portfolio website design and implementation.</p>
+            <a href="index.html" class="btn">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/mldekbey" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2024 Puthineedi Ganesh. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
